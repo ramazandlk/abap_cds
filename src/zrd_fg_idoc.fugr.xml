@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>IDOC</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRD_FG_IDOCTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRD_FG_IDOC</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZRD_FM_IDOC</FUNCNAME>
+     <SHORT_TEXT>IDOC</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_KUNNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>KUNNR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ES_EXPORT</PARAMETER>
+       <TYP>ZRD_S_EXPORT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_KUNNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Müşteri numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ES_EXPORT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export Data</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
